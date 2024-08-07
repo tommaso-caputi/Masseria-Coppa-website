@@ -14,7 +14,7 @@ export default function Home() {
                 width="550"
                 height="550"
                 alt="Farm"
-                className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:order-last"
+                className="mx-auto aspect-square overflow-hidden rounded-lg object-cover sm:w-full lg:order-last"
               />
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
@@ -22,8 +22,9 @@ export default function Home() {
                     Benvenuti a Masseria Coppa
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
+                    Immersa nel cuore della campagna, Masseria Coppa fornisce prodotti lattiero-caseari di alta qualità
+                    prodotti alla nostra comunità da oltre 50 anni. La nostra azienda agricola a conduzione familiare è impegnata nella sostenibilità e
+                    pratiche agricole etiche, garantendo che ogni prodotto che offriamo sia fresco, nutriente e delizioso.                  </p>
                 </div>
               </div>
             </div>
