@@ -22,7 +22,7 @@ export function ProductCard({ nome, descrizione }: ProductCardContent) {
                 <CardDescription>
                     {descrizione}
                 </CardDescription>
-                <div className="font-bold text-lg">$3.99</div>
+                {/* <div className="font-bold text-lg">$3.99</div> */}
             </CardContent>
         </Card>
     );

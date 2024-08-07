@@ -1,5 +1,5 @@
 import { Header } from "@/components/Header";
-import { ProductCard } from "@/components/ProductCard";
+import { ProductSection } from "@/components/ProductSection";
 
 export default function Home() {
   return (
@@ -30,32 +30,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="w-full py-12 md:py-5 lg:py-16 bg-muted">
-            <div className="container px-4 md:px-6">
-              <div className="flex flex-col space-y-4">
-                <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">I nostri prodotti</h2>
-                  <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    Esplora la nostra selezione di latticini freschi e di alta qualità, realizzati con il latte dei nostri bovini.
-                  </p>
-                </div>
-              </div>
-              <div className="mx-auto grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
-                <div className="space-y-4">
-                  <h3 className="text-2xl font-bold">Latticini</h3>
-                  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
-                    <ProductCard nome="Ricotta" descrizione="descrizione" />
-                  </div>
-                </div>
-                <div className="space-y-4">
-                  <h3 className="text-2xl font-bold">Marmellate</h3>
-                  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
-                    <ProductCard nome="Cipolle rosse" descrizione="descrizione" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          <ProductSection />
 
         </main>
       </div >
