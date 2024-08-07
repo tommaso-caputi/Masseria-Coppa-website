@@ -1,4 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
+import Image from "next/image";
 
 interface ProductCardContent {
     nome: string
@@ -9,7 +10,7 @@ export function ProductCard({ nome, descrizione }: ProductCardContent) {
     return (
         <Card className="flex flex-col items-center justify-between">
             <CardHeader>
-                <img
+                <Image
                     src="/placeholder.svg"
                     width="200"
                     height="200"

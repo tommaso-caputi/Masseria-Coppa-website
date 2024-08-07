@@ -15,13 +15,14 @@ export function ProductSection() {
             nome: "Ricotta",
             descrizione: "descrizione ricotta"
         }
-    ]
+    ];
+
     const products2 = [
         {
             nome: "Cipolle rosse",
             descrizione: "descrizione"
         }
-    ]
+    ];
 
     return (
         <section className="w-full py-12 md:py-5 lg:py-16 bg-muted">
@@ -36,21 +37,29 @@ export function ProductSection() {
                 </div>
                 <h3 className="text-2xl font-bold">Latticini</h3>
                 <div className="mx-auto grid grid-cols-4 gap-6 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 pb-8 py-2">
-                    {products1.map(product => {
+                    {products1.map((product, index) => {
                         return (
-                            <ProductCard nome={product.nome} descrizione={product.descrizione} />
-                        )
+                            <ProductCard
+                                key={`latticini-${index}`}
+                                nome={product.nome}
+                                descrizione={product.descrizione}
+                            />
+                        );
                     })}
                 </div>
                 <h3 className="text-2xl font-bold">Marmellate</h3>
                 <div className="mx-auto grid grid-cols-4 gap-6 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 pb-8 py-2">
-                    {products2.map(product => {
+                    {products2.map((product, index) => {
                         return (
-                            <ProductCard nome={product.nome} descrizione={product.descrizione} />
-                        )
+                            <ProductCard
+                                key={`marmellate-${index}`}
+                                nome={product.nome}
+                                descrizione={product.descrizione}
+                            />
+                        );
                     })}
                 </div>
             </div>
         </section>
-    )
+    );
 }

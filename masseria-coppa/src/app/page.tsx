@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import { ProductSection } from "@/components/ProductSection";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,10 +10,10 @@ export default function Home() {
         <main className="flex-1">
           <section className="w-full py-8 md:py-10 lg:py-4 p-5">
             <div className="container grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-              <img
+              <Image
                 src="/farm.jpeg"
-                width="550"
-                height="550"
+                width={550}
+                height={550}
                 alt="Farm"
                 className="mx-auto aspect-square overflow-hidden rounded-lg object-cover sm:w-full lg:order-last"
               />
