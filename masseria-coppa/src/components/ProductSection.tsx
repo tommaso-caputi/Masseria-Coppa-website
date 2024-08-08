@@ -14,6 +14,10 @@ export function ProductSection() {
         {
             nome: "Ricotta",
             descrizione: "descrizione ricotta"
+        },
+        {
+            nome: "Scamorza",
+            descrizione: "descrizione scamorza"
         }
     ];
 
