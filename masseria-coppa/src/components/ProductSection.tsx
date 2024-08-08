@@ -30,36 +30,33 @@ export function ProductSection() {
                 <div className="flex flex-col space-y-4 py-10">
                     <div className="space-y-2">
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">I nostri prodotti</h2>
-                        <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                        <p className="max-w-[700px] text-muted-foreground md:text-xl lg:text-base xl:text-xl">
                             Esplora la nostra selezione di latticini freschi e di alta qualità, realizzati con il latte dei nostri bovini.
                         </p>
                     </div>
                 </div>
                 <h3 className="text-2xl font-bold">Latticini</h3>
-                <div className="mx-auto grid grid-cols-4 gap-6 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 pb-8 py-2">
-                    {products1.map((product, index) => {
-                        return (
-                            <ProductCard
-                                key={`latticini-${index}`}
-                                nome={product.nome}
-                                descrizione={product.descrizione}
-                            />
-                        );
-                    })}
+                <div className="mx-auto grid gap-6 pb-8 py-2 min-[360px]:grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    {products1.map((product, index) => (
+                        <ProductCard
+                            key={`latticini-${index}`}
+                            nome={product.nome}
+                            descrizione={product.descrizione}
+                        />
+                    ))}
                 </div>
                 <h3 className="text-2xl font-bold">Marmellate</h3>
-                <div className="mx-auto grid grid-cols-4 gap-6 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 pb-8 py-2">
-                    {products2.map((product, index) => {
-                        return (
-                            <ProductCard
-                                key={`marmellate-${index}`}
-                                nome={product.nome}
-                                descrizione={product.descrizione}
-                            />
-                        );
-                    })}
+                <div className="mx-auto grid gap-6 pb-8 py-2 min-[360px]:grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    {products2.map((product, index) => (
+                        <ProductCard
+                            key={`marmellate-${index}`}
+                            nome={product.nome}
+                            descrizione={product.descrizione}
+                        />
+                    ))}
                 </div>
             </div>
         </section>
+
     );
 }
