@@ -11,7 +11,7 @@ export function Header() {
                 <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
                     Info
                 </Link>
-                <Link href="#prodotti" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+                <Link href="/#prodotti" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
                     Prodotti
                 </Link>
                 <Link href="/contatti" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
