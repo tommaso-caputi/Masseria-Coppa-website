@@ -1,33 +1,7 @@
+import { confetture, latticini } from "@/data/data";
 import { ProductCard } from "./ProductCard";
 
 export function ProductSection() {
-
-    const products1 = [
-        {
-            nome: "Mozzarella",
-            descrizione: "descrizione mozzarella"
-        },
-        {
-            nome: "Nodino",
-            descrizione: "descrizione nodino"
-        },
-        {
-            nome: "Ricotta",
-            descrizione: "descrizione ricotta"
-        },
-        {
-            nome: "Scamorza",
-            descrizione: "descrizione scamorza"
-        }
-    ];
-
-    const products2 = [
-        {
-            nome: "Cipolle rosse",
-            descrizione: "descrizione"
-        }
-    ];
-
     return (
         <section className="w-full py-12 md:py-5 lg:py-16 bg-muted" id="prodotti">
             <div className="container px-4 md:px-6">
@@ -39,9 +13,8 @@ export function ProductSection() {
                         </p>
                     </div>
                 </div>
-                <h3 className="text-2xl font-bold">Latticini</h3>
                 <div className="mx-auto grid gap-6 pb-8 py-2 min-[360px]:grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                    {products1.map((product, index) => (
+                    {latticini.map((product, index) => (
                         <ProductCard
                             key={`latticini-${index}`}
                             nome={product.nome}
@@ -49,9 +22,9 @@ export function ProductSection() {
                         />
                     ))}
                 </div>
-                <h3 className="text-2xl font-bold">Marmellate</h3>
+                <h3 className="text-2xl font-bold">Confetture</h3>
                 <div className="mx-auto grid gap-6 pb-8 py-2 min-[360px]:grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                    {products2.map((product, index) => (
+                    {confetture.map((product, index) => (
                         <ProductCard
                             key={`marmellate-${index}`}
                             nome={product.nome}
