@@ -50,7 +50,7 @@ export default function info() {
                                     <div>
                                         <h3 className="text-xl font-semibold">Origini</h3>
                                         <p>
-                                            La nostra azienda è stata fondata nel 2010 con l'obiettivo di offrire servizi di alta qualità ai
+                                            La nostra azienda è stata fondata nel 2010 con l&#39; obiettivo di offrire servizi di alta qualità ai
                                             nostri clienti.
                                         </p>
                                     </div>
@@ -64,7 +64,7 @@ export default function info() {
                                     <div>
                                         <h3 className="text-xl font-semibold">Successo</h3>
                                         <p>
-                                            Oggi, siamo orgogliosi di essere riconosciuti come leader del settore, grazie all'impegno e alla
+                                            Oggi, siamo orgogliosi di essere riconosciuti come leader del settore, grazie all&#39; impegno e alla
                                             dedizione del nostro team.
                                         </p>
                                     </div>
