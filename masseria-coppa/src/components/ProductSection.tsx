@@ -29,7 +29,7 @@ export function ProductSection() {
     ];
 
     return (
-        <section className="w-full py-12 md:py-5 lg:py-16 bg-muted">
+        <section className="w-full py-12 md:py-5 lg:py-16 bg-muted" id="prodotti">
             <div className="container px-4 md:px-6">
                 <div className="flex flex-col space-y-4 py-10">
                     <div className="space-y-2">
