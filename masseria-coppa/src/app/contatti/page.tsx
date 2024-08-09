@@ -34,8 +34,8 @@ export default function contatti() {
                         <MailOpenIcon className="h-8 w-8 mx-auto" />
                         <div>
                             <p className="font-medium">Email</p>
-                            <Link href="mailto:" className="text-muted-foreground hover:underline">
-                                contact@acme.com
+                            <Link href="mailto:masseria.coppa@libero.it" className="text-muted-foreground hover:underline">
+                                masseria.coppa@libero.it
                             </Link>
                         </div>
                     </div>
