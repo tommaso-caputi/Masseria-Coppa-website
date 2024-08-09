@@ -20,9 +20,13 @@ export default function contatti() {
                         <div>
                             <p className="font-medium">Telefono</p>
                             <p className="text-muted-foreground">
-                                +39 3476636776
+                                <Link href="tel:+393476636776" className="text-muted-foreground hover:underline">
+                                    +39 3476636776
+                                </Link>
                                 <br />
-                                +1 (555) 555-5556
+                                <Link href="tel:+393479796643" className="text-muted-foreground hover:underline">
+                                    +39 3479796643
+                                </Link>
                             </p>
                         </div>
                     </div>
@@ -30,14 +34,16 @@ export default function contatti() {
                         <MailOpenIcon className="h-8 w-8 mx-auto" />
                         <div>
                             <p className="font-medium">Email</p>
-                            <p className="text-muted-foreground">contact@acme.com</p>
+                            <Link href="mailto:" className="text-muted-foreground hover:underline">
+                                contact@acme.com
+                            </Link>
                         </div>
                     </div>
                     <div className="space-y-2 text-center items-center flex flex-col">
                         <InstagramIcon className="h-8 w-8 mx-auto" />
                         <div>
                             <p className="font-medium">Instagram</p>
-                            <Link href="#" className="text-muted-foreground hover:underline" prefetch={false}>
+                            <Link href="https://www.instagram.com/masseria.coppa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-muted-foreground hover:underline" prefetch={false}>
                                 @masseria-coppa
                             </Link>
                         </div>
