@@ -1,7 +1,6 @@
 "use client"
 
 import { Header } from "@/components/Header"
-import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps"
 import Link from "next/link"
 
 export default function contatti() {
@@ -10,18 +9,18 @@ export default function contatti() {
             <Header />
             <div className="flex flex-col items-center justify-center min-h-dvh space-y-8 px-4 md:px-6">
                 <div className="space-y-2 text-center">
-                    <h1 className="text-3xl font-bold tracking-tighter md:text-4xl">Get in Touch</h1>
+                    <h1 className="text-3xl font-bold tracking-tighter md:text-4xl">Contattaci</h1>
                     <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
-                        We'd love to hear from you. Here's how you can reach us.
+                        Hai bisogno di informazioni o vuoi fare un ordine? Scrivici su WhatsApp o chiamaci, saremo felici di assisterti!
                     </p>
                 </div>
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                     <div className="space-y-2 text-center items-center flex flex-col">
                         <PhoneIcon className="h-8 w-8 mx-auto" />
                         <div>
-                            <p className="font-medium">Phone</p>
+                            <p className="font-medium">Telefono</p>
                             <p className="text-muted-foreground">
-                                +1 (555) 555-5555
+                                +39 3476636776
                                 <br />
                                 +1 (555) 555-5556
                             </p>
@@ -39,13 +38,18 @@ export default function contatti() {
                         <div>
                             <p className="font-medium">Instagram</p>
                             <Link href="#" className="text-muted-foreground hover:underline" prefetch={false}>
-                                @acme
+                                @masseria-coppa
                             </Link>
                         </div>
                     </div>
                 </div>
-                <div className="w-full max-w-4xl">
-                    <div />
+                <div className="w-full max-w-3xl relative pt-[55%] lg:pt-[30%]">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1762.468663673044!2d16.374833533845365!3d40.99697287200536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13380bd4fcf9b9d1%3A0xe30ed3807020bba!2sTenuta%20COPPA%20di%20Ruvo%20di%20Puglia!5e1!3m2!1sit!2sit!4v1723197969271!5m2!1sit!2sit"
+                        className="absolute top-0 left-0 w-full h-full"
+                        style={{ border: 0, borderRadius: '12px' }}
+                        loading="lazy"
+                    />
                 </div>
             </div>
         </>
