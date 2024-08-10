@@ -22,11 +22,19 @@ export default function contatti() {
                             <p className="font-medium">Telefono</p>
                             <p className="text-muted-foreground">
                                 <Link href="tel:+393476636776" className="text-muted-foreground hover:underline">
-                                    +39 3476636776
+                                    +39 3476636776 Caputi Vittorio
                                 </Link>
                                 <br />
                                 <Link href="tel:+393479796643" className="text-muted-foreground hover:underline">
-                                    +39 3479796643
+                                    +39 3479796643 Caputi Giovanni
+                                </Link>
+                                <br />
+                                <Link href="tel:+393420921955" className="text-muted-foreground hover:underline">
+                                    +39 3420921955 Caputi Vincenzo
+                                </Link>
+                                <br />
+                                <Link href="tel:+393341493644" className="text-muted-foreground hover:underline">
+                                    +39 3341493644 Pagano Lucia (Confetture)
                                 </Link>
                             </p>
                         </div>
