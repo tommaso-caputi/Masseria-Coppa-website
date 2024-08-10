@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { ProductSection } from "@/components/ProductSection";
 import Image from "next/image";
@@ -34,6 +35,8 @@ export default function Home() {
           <ProductSection />
 
         </main>
+
+        <Footer />
       </div >
     </>
   );

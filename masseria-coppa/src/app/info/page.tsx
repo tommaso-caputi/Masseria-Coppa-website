@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer"
 import { Header } from "@/components/Header"
 import { ImageCarousel } from "@/components/ImagesCarousel"
 
@@ -74,6 +75,7 @@ export default function info() {
                     </div>
                 </section>
             </div >
+            <Footer />
         </>
     )
 }
