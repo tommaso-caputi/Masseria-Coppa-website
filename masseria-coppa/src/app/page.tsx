@@ -26,7 +26,8 @@ export default function Home() {
                   <p className="max-w-[750px] text-muted-foreground md:text-xl">
                     Immersa nel cuore della campagna, Masseria Coppa fornisce prodotti lattiero-caseari di alta qualità
                     prodotti alla nostra comunità da oltre 20 anni. La nostra azienda agricola a conduzione familiare è impegnata nella sostenibilità e
-                    pratiche agricole etiche, garantendo che ogni prodotto che offriamo sia fresco, nutriente e delizioso.                  </p>
+                    pratiche agricole etiche, garantendo che ogni prodotto che offriamo sia fresco, nutriente e delizioso.
+                  </p>
                 </div>
               </div>
             </div>
