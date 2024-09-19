@@ -7,10 +7,10 @@ export default function info() {
         <>
             <Header />
             <div className="flex flex-col min-h-dvh">
-                <section className="w-full pt-10 pb-5 flex justify-center">
+                <section className="w-full pt-10 pb-5 flex justify-center m-0">
                     <ImageCarousel />
                 </section>
-                <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+                {/* <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
                     <div className="container px-4 md:px-6">
                         <div className="grid gap-10 px-10 md:gap-16 lg:grid-cols-2">
                             <div>
@@ -73,7 +73,7 @@ export default function info() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </div >
             <Footer />
         </>

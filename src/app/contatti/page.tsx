@@ -46,6 +46,10 @@ export default function contatti() {
                             <Link href="mailto:masseria.coppa@libero.it" className="text-muted-foreground hover:underline">
                                 masseria.coppa@libero.it
                             </Link>
+                            <br />
+                            <Link href="mailto:masseriacoppa@pec.it" className="text-muted-foreground hover:underline">
+                                masseriacoppa@pec.it
+                            </Link>
                         </div>
                     </div>
                     <div className="space-y-2 text-center items-center flex flex-col">
